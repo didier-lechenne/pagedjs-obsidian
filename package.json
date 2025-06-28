@@ -1,6 +1,6 @@
 {
   "name": "pagedjs-obsidian",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Plugin Obsidian avec serveur HTTP et rechargement automatique des fichiers .md",
   "main": "main.js",
   "scripts": {
