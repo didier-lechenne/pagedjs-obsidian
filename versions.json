@@ -4,5 +4,11 @@
         "timestamp": "2025-06-28T19:53:54.776Z",
         "minAppVersion": "0.15.0",
         "description": "Release 1.2.0"
+    },
+    "1.2.1": {
+        "date": "2025-06-28",
+        "timestamp": "2025-06-28T20:07:24.929Z",
+        "minAppVersion": "0.15.0",
+        "description": "Release 1.2.1"
     }
 }
