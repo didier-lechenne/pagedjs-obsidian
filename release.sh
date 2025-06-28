@@ -26,9 +26,23 @@ done
 echo "✅ Tous les fichiers sont prêts"
 echo "📦 Version: $TAG"
 
-# Créer la release
-gh release create "$TAG" "${FILES[@]}" \
-  --repo "$REPO" \
-  --title "$RELEASE_NAME" \
-  --notes "$DESCRIPTION"
-  
+# Commit et push (sans créer la release GitHub automatiquement)
+echo "📤 Commit et push des changements..."
+git add .
+git commit -m "Release $TAG"
+git tag "$TAG"
+git push origin main
+git push origin "$TAG"
+
+echo "🎉 Tag $TAG créé et pushé !"
+echo ""
+echo "📋 Pour créer la release GitHub manuellement :"
+echo "1. Allez sur https://github.com/$REPO/releases"
+echo "2. Cliquez 'Create a new release'"
+echo "3. Sélectionnez le tag '$TAG'"
+echo "4. Uploadez ces fichiers :"
+for file in "${FILES[@]}"; do
+    echo "   - $file"
+done
+echo ""
+echo "💡 Ou installez GitHub CLI : winget install --id GitHub.cli"
