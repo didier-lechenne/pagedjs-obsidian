@@ -1,7 +1,7 @@
 {
     "id": "pagedjs-obsidian",
     "name": "pagedjs + obsidian",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "minAppVersion": "0.15.0",
     "description": "Plugin pour servir des fichiers HTML et rechargement automatique des fichiers .md",
     "author": "Didier Lechenne",
