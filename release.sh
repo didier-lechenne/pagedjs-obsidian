@@ -31,3 +31,4 @@ gh release create "$TAG" "${FILES[@]}" \
   --repo "$REPO" \
   --title "$RELEASE_NAME" \
   --notes "$DESCRIPTION"
+  
