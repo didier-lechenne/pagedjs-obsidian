@@ -1,0 +1,204 @@
+{
+  "autoStart": true,
+  "publicFolder": "memoire-Valentine",
+  "width": 165,
+  "height": 240,
+  "margin_top": 10,
+  "margin_right": 10,
+  "margin_bottom": 10,
+  "margin_left": 10,
+  "page_left_margin_top": 10,
+  "page_left_margin_bottom": 10,
+  "page_left_margin_left": 25,
+  "page_left_margin_right": 10,
+  "page_right_margin_top": 10,
+  "page_right_margin_bottom": 10,
+  "page_right_margin_left": 10,
+  "page_right_margin_right": 25,
+  "bleed": true,
+  "marks": true,
+  "recto_verso": false,
+  "printNotes": "bottom",
+  "imageNotes": false,
+  "ragadjust": false,
+  "typesetting": false,
+  "ep_markdown": false,
+  "tailwind": false,
+  "auto": false,
+  "baseline": false,
+  "theme": "theme/valentine",
+  "title": "Désencombrement",
+  "subtitle": "Index d’une société à venir, allégée de ses objets",
+  "runningtitle": "",
+  "name": "VALENTINE SAINT-MARTIN",
+  "mention": "Mémoire de Diplôme National Supérieur d’Expression Plastique",
+  "option": "option Design ",
+  "year": "2025-2026 ",
+  "directeur": "sous la direction de Jean Charles Zebo ",
+  "ecole": "ebabx – école supérieure des beaux-arts de Bordeaux",
+  "pdf": "",
+  "parts": [
+    {
+      "title": "couverture",
+      "export": true,
+      "template": "cover",
+      "file": "content/text/00.cover.md"
+    },
+    {
+      "title": "vide",
+      "export": true,
+      "template": "blankpage",
+      "file": "content/text/01.blankpage.md"
+    },
+    {
+      "title": "fauxtitre",
+      "export": true,
+      "template": "modularGrid",
+      "file": "content/text/02.faux_titre.md"
+    },
+    {
+      "title": "toc",
+      "export": true,
+      "template": "toc",
+      "file": "content/text/03.sommaire.md"
+    },
+    {
+      "title": "INTRODUCTION",
+      "export": true,
+      "template": "default",
+      "file": "content/text/10.introduction.md"
+    },
+    {
+      "title": "AFFECT",
+      "export": true,
+      "template": "default",
+      "file": "content/text/20.affect.md"
+    },
+    {
+      "title": "ALTERNATIVE",
+      "export": true,
+      "template": "default",
+      "file": "content/text/30.alternative.md"
+    },
+    {
+      "title": "ARMOIRE",
+      "export": true,
+      "template": "default",
+      "file": "content/text/40.armoire.md"
+    },
+    {
+      "title": "BIBLIOTHÈQUE ",
+      "export": true,
+      "template": "default",
+      "file": "content/text/50.bibliotheque.md"
+    },
+    {
+      "title": "BIJOUX ",
+      "export": true,
+      "template": "default",
+      "file": "content/text/60.bijoux.md"
+    },
+    {
+      "title": "CASQUETTE",
+      "export": true,
+      "template": "default",
+      "file": "content/text/70.casquette.md"
+    },
+    {
+      "title": "circuit",
+      "export": true,
+      "template": "default",
+      "file": "content/text/80.circuit.md"
+    },
+    {
+      "title": "COMMUN",
+      "export": true,
+      "template": "default",
+      "file": "content/text/100.commun.md"
+    },
+    {
+      "title": "Domestique",
+      "export": true,
+      "template": "default",
+      "file": "content/text/110.domestique.md"
+    },
+    {
+      "title": "domotique",
+      "export": true,
+      "template": "default",
+      "file": "content/text/120.domotique.md"
+    },
+    {
+      "title": "HERITAGE",
+      "export": true,
+      "template": "default",
+      "file": "content/text/130.heritage.md"
+    },
+    {
+      "title": "INDUSTRIEL",
+      "export": true,
+      "template": "default",
+      "file": "content/text/150.industriel.md"
+    },
+    {
+      "title": "LOW_TECH",
+      "export": true,
+      "template": "default",
+      "file": "content/text/180.low_tech.md"
+    },
+    {
+      "title": "MINIMAL",
+      "export": true,
+      "template": "default",
+      "file": "content/text/190.minimal.md"
+    },
+    {
+      "title": "POSTURE",
+      "export": true,
+      "template": "default",
+      "file": "content/text/200.posture.md"
+    },
+    {
+      "title": "REPARATION",
+      "export": true,
+      "template": "default",
+      "file": "content/text/230.reparer.md"
+    },
+    {
+      "title": "SIEGE",
+      "export": true,
+      "template": "default",
+      "file": "content/text/240.siege.md"
+    },
+    {
+      "title": "SNEACKERS",
+      "export": true,
+      "template": "default",
+      "file": "content/text/250.sneackers.md"
+    },
+    {
+      "title": "SKATE",
+      "export": true,
+      "template": "default",
+      "file": "content/text/260.skate.md"
+    },
+    {
+      "title": "VELO",
+      "export": true,
+      "template": "default",
+      "file": "content/text/310.velo.md"
+    },
+    {
+      "title": "bibliographie",
+      "export": true,
+      "template": "textCol",
+      "file": "content/text/320.bibliographie.md"
+    },
+    {
+      "title": "conclusion",
+      "export": true,
+      "template": "default",
+      "file": "content/text/330.conclusion.md"
+    }
+  ]
+}

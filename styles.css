@@ -1,0 +1,175 @@
+/* Bouton avec icône dans les paramètres */
+.setting-item-control button[aria-label*="Ouvrir"] {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border: none;
+  border-radius: var(--button-radius);
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.setting-item-control button[aria-label*="Ouvrir"]:hover:not(:disabled) {
+  background: var(--interactive-accent-hover);
+}
+
+.setting-item-control button[aria-label*="Ouvrir"]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Icône dans le bouton */
+.setting-item-control button[aria-label*="Ouvrir"] .svg-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.pagedjs-tab-nav {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  gap: 4px;
+}
+
+.pagedjs-tab-button {
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  background: var(--background-secondary);
+  color: var(--text-muted);
+  cursor: pointer;
+  border-radius: 6px 6px 0 0;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.pagedjs-tab-button:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+
+.pagedjs-tab-button.active {
+  background: var(--background-primary);
+  color: var(--text-accent);
+  border-bottom: 2px solid var(--interactive-accent);
+}
+
+.pagedjs-tab-content {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.pagedjs-files-status {
+  margin: 15px 0;
+  padding: 15px;
+  background: var(--background-secondary);
+  border-radius: 8px;
+}
+
+.status-success {
+  color: var(--text-success);
+  margin: 8px 0;
+}
+
+.status-error {
+  color: var(--text-error);
+  margin: 8px 0;
+}
+
+.pagedjs-info-section {
+  margin: 15px 0;
+  padding: 15px;
+  background: var(--background-secondary);
+  border-radius: 8px;
+  border-left: 4px solid var(--interactive-accent);
+}
+
+.info-item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.info-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.info-item code {
+  background: var(--background-modifier-border);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: var(--font-monospace);
+}
+
+.info-item em {
+  color: var(--text-muted);
+  font-size: 0.9em;
+}
+
+.pagedjs-dimensions-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.pagedjs-margins-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.pagedjs-dimensions-row .setting-item,
+.pagedjs-margins-row .setting-item {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.configurations input[type="text"] {
+  width: 500px;
+}
+
+
+
+.options input[type="text"] {
+  width: 100px;
+}
+
+
+/* Styles basiques pour Structure */
+.structure .setting-item {
+    border: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.structure button {
+    padding: 6px 12px;
+    border: 1px solid var(--background-modifier-border);
+    background: var(--background-primary);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.structure button:hover {
+    background: var(--background-modifier-hover);
+}
